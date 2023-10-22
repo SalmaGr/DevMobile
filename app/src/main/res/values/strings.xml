@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Graja_Salma_Mesure_Glycemie</string>
+    <string name="votre_age">Votre age :</string>
+    <string name="votre_ge">Votre âge :</string>
+    <string name="mesure_de_niveau_de_glyc_mie">Mesure de niveau de glycémie</string>
+    <string name="est_ce_que_vous_je_nez">Est-ce que vous jeûnez ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="valeur_mesur_e_en_mmol_l">Valeur mesurée (en mmol/l)</string>
+    <string name="consulter">CONSULTER</string>
+    <string name="mesure_de_niveau_de_glycemie">Mesure de niveau de glycémie</string>
+</resources>
