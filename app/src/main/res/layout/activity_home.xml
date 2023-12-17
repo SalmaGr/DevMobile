@@ -7,40 +7,57 @@
     android:background="@drawable/home_background"
     tools:context=".vue.HomeActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenu !"
+        android:textColorHint="@color/Queen_Blue"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:textStyle="bold"
+        />
+
     <EditText
         android:id="@+id/nom"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="80dp"
-        android:inputType="text"
-        android:hint="Nom d'utilisateur"
         android:layout_centerHorizontal="true"
-        android:textColorHint="@color/black"
-        android:textSize="25sp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:hint="Nom d'utilisateur"
+        android:inputType="text"
+        android:textColorHint="@color/Queen_Blue"
+        android:backgroundTint="@color/Queen_Blue"
+        android:textSize="20sp"
+        />
 
     <EditText
         android:id="@+id/mdp"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/nom"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:inputType="textPassword"
-        android:hint="Mot de passe"
         android:layout_centerHorizontal="true"
-        android:textColorHint="@color/black"
-        android:textSize="25sp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textColorHint="@color/Queen_Blue"
+        android:backgroundTint="@color/Queen_Blue"
+        android:textSize="20sp"
+        />
 
     <Button
         android:id="@+id/btnConsultation"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/mdp"
+        android:layout_marginTop="72dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:text="Connexion"
-        android:textColor="@color/white"
-        android:textSize="28sp"/>
-
+        android:textColor="@color/Queen_Blue"
+        android:textSize="20sp"
+        android:backgroundTint="#FFFFFF"/>
 </RelativeLayout>
